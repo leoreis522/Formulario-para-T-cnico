@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha de Inscrição - Técnico (Aprendiz)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ficha de Inscrição - Técnico (Aprendiz)</h1>
+  <form action="https://formsubmit.co/mobileassistencia25@gmail.com" method="POST">
+    <!-- Coleta de Nome -->
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <!-- Data de Nascimento -->
+    <label for="nascimento">Data de Nascimento:</label>
+    <input type="date" id="nascimento" name="nascimento" required>
+
+    <!-- CPF -->
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" name="cpf" required>
+
+    <!-- RG -->
+    <label for="rg">RG:</label>
+    <input type="text" id="rg" name="rg" required>
+
+    <!-- Endereço -->
+    <label for="endereco">Endereço Completo:</label>
+    <textarea id="endereco" name="endereco" rows="3" required></textarea>
+
+    <!-- Telefone -->
+    <label for="telefone">Telefone/WhatsApp:</label>
+    <input type="text" id="telefone" name="telefone" required>
+
+    <!-- Ensino Médio -->
+    <label for="ensino_medio">Ensino Médio Completo?</label>
+    <select id="ensino_medio" name="ensino_medio" required>
+      <option value="Sim">Sim</option>
+      <option value="Não">Não</option>
+      <option value="Cursando">Cursando</option>
+    </select>
+
+    <!-- Horário de Estudo -->
+    <label for="horario_estudo">Horário de Estudo (se aplicável):</label>
+    <input type="text" id="horario_estudo" name="horario_estudo">
+
+    <!-- Perguntas Pessoais -->
+    <label for="hobbies">O que gosta de fazer nos momentos livres?</label>
+    <textarea id="hobbies" name="hobbies" rows="3"></textarea>
+
+    <label for="futuro">Como se vê daqui a cinco anos?</label>
+    <textarea id="futuro" name="futuro" rows="3"></textarea>
+
+    <label for="livro_filme">Me indique um filme ou livro:</label>
+    <input type="text" id="livro_filme" name="livro_filme">
+
+    <!-- Mora Sozinho -->
+    <label for="mora_sozinho">Mora sozinho?</label>
+    <select id="mora_sozinho" name="mora_sozinho" required>
+      <option value="Sim">Sim</option>
+      <option value="Não">Não</option>
+    </select>
+
+    <!-- Filho Único -->
+    <label for="filho_unico">É filho único?</label>
+    <select id="filho_unico" name="filho_unico" required>
+      <option value="Sim">Sim</option>
+      <option value="Não">Não</option>
+    </select>
+
+    <!-- Perguntas Técnicas -->
+    <label for="resistor">Explique o que é um resistor e sua função:</label>
+    <textarea id="resistor" name="resistor" rows="3"></textarea>
+
+    <label for="capacitor">Explique o funcionamento de um capacitor:</label>
+    <textarea id="capacitor" name="capacitor" rows="3"></textarea>
+
+    <label for="componente_danificado">Como identificar um componente danificado em uma placa eletrônica?</label>
+    <textarea id="componente_danificado" name="componente_danificado" rows="3"></textarea>
+
+    <!-- Botão de Envio -->
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
